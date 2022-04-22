@@ -14,38 +14,46 @@
     font-size: 24px; */
 
 /* class */
-   .bodycontainer{
+.bodycontainer{
     background-color: white;
      background-image: url(./mostrador.jpg);  
-   background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
    }
-   .titulo {
+
+.ddd{
+    width: 100px; 
+    border-radius: 5px;
+}
+
+.titulo {
     font-size: 50px;
-       color: orangered; 
+       color: grey; 
      font-family: 'Segoe UI';
    font-style: italic;
    text-align: center;
    vertical-align: middle;
    padding: 8px;
    border: 4px solid black;
-   border-radius: 100px;
+   border-radius: 80px;
    }
    
-   img{
+img{
    width: auto;
    height: 100%;
    object-fit: contain;
    opacity: 0.9;
    }
-    .textocompra {
+
+.textocompra {
    position: relative;
-   font-size: 20px;
+   font-size: 15px;
    color: black;
    float: left;
    width: auto;
-   }
-   .frutatexto {
+}
+
+.frutatexto {
    position: relative;
    font-size: 20px;
    color: black;
@@ -56,7 +64,7 @@
       position: relative;
       font-size: 20px;
       color: black;
-      left: 18%;
-      bottom: -200px;
+      left: 29%;
+      bottom: -250px;
      
   }
